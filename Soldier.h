@@ -5,7 +5,8 @@
 /*includes & defines*/
 #include "defs.h"
 
-
+typedef struct Soldier* PSoldier;
+PSoldier Soldier_Create(char* Pos, char* ID);
 
 
 #endif
